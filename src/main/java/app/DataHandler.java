@@ -22,7 +22,7 @@ public class DataHandler {
     // Метод формує виведення імені за певним id
     public String getById(int id) {
         if (map.containsKey(id)) {
-            return "\nNAME: id " + id + ", " +
+            return "NAME: id " + id + ", " +
                     map.get(id);
         } else return "No data!";
     }
